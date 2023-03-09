@@ -12,15 +12,11 @@ This script requires the following dependencies:
 You can install them using `pip`:
 pip install argparse requests beautifulsoup4
 
-shell
-Copy code
 
 ## Usage
 
 python website_scraper.py [-h] [--tags] [--attrs] [--text] [--html] [--all] URL [URL ...]
 
-markdown
-Copy code
 
 ### Positional arguments:
 - `URL`: URLs of the websites to scrape
@@ -38,8 +34,6 @@ Copy code
 Extract tag names and text content from a single website:
 python website_scraper.py --tags --text https://www.example.com
 
-python
-Copy code
 
 Extract all available data from multiple websites:
 python website_scraper.py --all https://www.example.com https://www.example2.com
