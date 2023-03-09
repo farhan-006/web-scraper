@@ -41,6 +41,4 @@ python website_scraper.py --all https://www.example.com https://www.example2.com
 python
 Copy code
 
-## License
 
-This script is licensed under the [MIT License](LICENSE).
