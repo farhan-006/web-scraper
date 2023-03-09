@@ -38,7 +38,6 @@ python website_scraper.py --tags --text https://www.example.com
 Extract all available data from multiple websites:
 python website_scraper.py --all https://www.example.com https://www.example2.com
 
-python
-Copy code
+
 
 
